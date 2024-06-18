@@ -62,17 +62,6 @@
     </item>
     
     <item>
-      <title>API / 微服务</title>
-      <link>/zh/tracks/api.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zh/tracks/api.html</guid>
-      <description>API 是服务连接的基石，通过 API 我们可以将各种服务进行搭建，并提供给用户使用；随着应用的复杂度越来越高，单体应用逐渐被拆分为微服务，产品可以快速迭代的同时也带来安全、维护和可观测性方面的技术挑战。
-在 ASF 中有多个项目是和 API、服务网关相关的，比如 Apache APISIX、Apache Shenyu 等。
-在这个专题中，大家不仅可以了解前沿技术和展望，也会学习到这些 Apache 项目的最佳实践。</description>
-    </item>
-    
-    <item>
       <title>DataOps</title>
       <link>/zh/tracks/dataops.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -100,6 +89,15 @@
     </item>
     
     <item>
+      <title>Monolith vs Microservice</title>
+      <link>/zh/tracks/api.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/zh/tracks/api.html</guid>
+      <description>微服务一度成为我们技术选型的默认选项,似乎不是微服务的就是落后的.但在近两年开始,关于微服务的质疑开始涌现,大家开始怀念单体服务的简单直接,避免服务化后的各种治理成本。 业界也涌现出了一些全新的编程框架,让开发者具备单体开发的体验与高效,同时具备微服务部署的灵活性与伸缩性,甚至具备一定的 Serverless 特性。</description>
+    </item>
+    
+    <item>
       <title>OLAP &amp; Data Analysis</title>
       <link>/zh/tracks/olap.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -111,22 +109,11 @@
     </item>
     
     <item>
-      <title>RPC &amp; Service Mesh</title>
-      <link>/zh/tracks/rpc.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zh/tracks/rpc.html</guid>
-      <description>RPC（Remote Procedure Call）即远程过程调用，是用于解决分布式系统架构中的跨进程、跨主机通信问题，随着近年来微服务架构的广泛应用，我们围绕 RPC 通信构建了适合解决微服务开发、服务治理的框架与解决方案。
-Apache Dubbo 是当前国内使用最广泛、影响力最大的开源微服务开发框架，在本分论坛中我们将围绕 Dubbo 框架相关技术方向、生态与实践总结展开：
- Dubbo3 在通信协议、云原生观测性、Kubernetes、服务网格、GraalVM 静态化方面的最新进展 微服务生态相关最新进展，包括分布式事务、限流降级、服务治理等 来自工商银行、政彩云等典型企业的微服务实践经验总结  本论坛非常适合从事企业级微服务架构的相关技术管理人员、架构师、开发者。</description>
-    </item>
-    
-    <item>
       <title>Web Server/Tomcat</title>
-      <link>/zh/tracks/webserverandtomcat.html</link>
+      <link>/zh/tracks/webserver.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/zh/tracks/webserverandtomcat.html</guid>
+      <guid>/zh/tracks/webserver.html</guid>
       <description>Web 服务器在互联网时代扮演了至关重要的作用，在多年的发展中依然历久弥坚，保持自己的活力，显示出其强大的生命力，这些项目包括但不限于 Apache Tomcat / Apache Http Server 为代表的 Web 服务器 ，以及 Apache Sling / Apache Traffic Server / Apache Traffic Control 等更多的生态项目。
 在这里，您将了解 Web 服务器领域的最新成果，一线大厂在生产当中的最佳实践，以及这些项目的最新发展规划。</description>
     </item>
@@ -149,6 +136,15 @@ Apache Dubbo 是当前国内使用最广泛、影响力最大的开源微服务�
       <description>机器学习（ML）是对计算机算法的研究，它可以通过经验和数据的使用来自动改进。机器学习算法基于样本数据（称为训练数据）建立模型，以便在没有明确编程的情况下进行预测或决策。它在工业中有着广泛的应用场景，并发挥着越来越重要的作用。
 适合本分论坛的三类Topic如下：
  聚焦于机器学习的框架和基础库项目，包括Mxnet，TVM，Mahout，singa，SystemML等 基于传统Apache大数据存储和计算项目在机器学习场景下做特定的优化的，例如Spark Mlib，FLink ML等 基于apache项目实现工业场景下的机器学习平台（例如Airflow + Kafka + Cassandra + Spark等）  </description>
+    </item>
+    
+    <item>
+      <title>会议日程</title>
+      <link>/zh/schedule.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/zh/schedule.html</guid>
+      <description></description>
     </item>
     
     <item>
@@ -197,18 +193,6 @@ Apache Dubbo 是当前国内使用最广泛、影响力最大的开源微服务�
       
       <guid>/zh/tracks/datalake.html</guid>
       <description>数据湖和数据仓库是存储和管理数据的重要解决方案，它们在数据管理、数据分析和决策中发挥着关键作用。 在ASF，有不少是与数据湖和数据仓库有关的项目，例如： Apache Hive, Apache Hudi, Apache Iceberg, Apache Paimon, Apache Cassandra, Apache HBase等。 在这个主题中，你将得到数据湖和仓库的最新情况，公司在生产中使用它们的最佳做法，以及这些项目的路线图。</description>
-    </item>
-    
-    <item>
-      <title>旅行资助</title>
-      <link>/zh/tac.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/zh/tac.html</guid>
-      <description>Apache软件基金会 旅行资助委员会（Travel Assistance Committee，TAC） 为本次会议提供旅行资助。
-那些考虑申请财务援助的人应该知道TAC的财务赞助有限，因此每个Apache活动只有少数名额可用。申请人应该有出席ASF活动的有效理由，且申请人、ASF和整个开源社区都有益。
-在申请旅行资助之前，请仔细阅读整个旅行赞助说明页面。
-申请CommunityOverCode Asia 2024旅行资助！</description>
     </item>
     
     <item>
@@ -269,10 +253,10 @@ CommunitOverCode (前 ApacheCon ) 致力于为每个人提供无骚扰的体验�
     
     <item>
       <title>通用</title>
-      <link>/zh/tracks/general.html</link>
+      <link>/zh/tracks/others.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/zh/tracks/general.html</guid>
+      <guid>/zh/tracks/others.html</guid>
       <description>通用演讲</description>
     </item>
     

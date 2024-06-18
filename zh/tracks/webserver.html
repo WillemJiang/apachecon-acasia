@@ -2,12 +2,14 @@
 
 <html>
 <head>
-    <title>RPC &amp; Service Mesh - CommunityOverCode Asia 2024 - Powered by ALC-Beijing</title>
+    <title>Web Server/Tomcat - CommunityOverCode Asia 2024 - Powered by ALC-Beijing</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' *; style-src 'unsafe-inline' *; img-src * data:; font-src * data:; connect-src *; frame-src *;">
+
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
-    <meta property='og:title' content='RPC &amp; Service Mesh'/>
+    <meta property='og:title' content='Web Server/Tomcat'/>
     <meta property='og:url' content='https://asia.communityovercode.org'/>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <base href="/"/>
@@ -20,7 +22,7 @@
     
     <link rel="stylesheet" href="/scss/main.min.f327fac657d730f3f1b9f16418e56111a1b2dc2bb77a5c8ef7e2e089db2941bc.css">
     
-    <link rel="stylesheet" href="/scss/acasia2021.min.2d129157f1e0bbb2d2aaf9b28375b89455e8aba4851292340bbb222021d5d462.css">
+    <link rel="stylesheet" href="/scss/acasia2021.min.4d8823c67361eb6bcc127980e7d7abc34545374e41cd842aa752bfe6650f31b4.css">
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
@@ -73,6 +75,11 @@
             
                 <li class="nav-item">
                     
+                    <a href="/zh/schedule.html" class="nav-link">会议日程</a>
+                </li>
+            
+                <li class="nav-item">
+                    
                     <a href="/zh/sponsor.html" class="nav-link">会议赞助</a>
                 </li>
             
@@ -88,18 +95,13 @@
             
                 <li class="nav-item">
                     
-                    <a href="/zh/tac.html" class="nav-link">旅行资助</a>
-                </li>
-            
-                <li class="nav-item">
-                    
                     <a href="/zh/conduct.html" class="nav-link">行为准则</a>
                 </li>
             
             
                 
                     <li class="nav-item">
-                        <a href="/tracks/rpc.html" class="nav-link" >English</a>
+                        <a href="/tracks/webserver.html" class="nav-link" >English</a>
                     </li>
                 
             
@@ -141,19 +143,13 @@
         <div id="content" class="container">
             <section class="session">
                 <header class="major">
-                    <h2>RPC &amp; Service Mesh</h2>
+                    <h2 class="text-center">Web Server/Tomcat</h2>
                     <hr></hr>
-                    <h3>出品人 : 刘军</h3>
+                    <h3>出品人 : 张乎兴</h3>
                 </header>
 
-                <article><p>RPC（Remote Procedure Call）即远程过程调用，是用于解决分布式系统架构中的跨进程、跨主机通信问题，随着近年来微服务架构的广泛应用，我们围绕 RPC 通信构建了适合解决微服务开发、服务治理的框架与解决方案。</p>
-<p>Apache Dubbo 是当前国内使用最广泛、影响力最大的开源微服务开发框架，在本分论坛中我们将围绕 Dubbo 框架相关技术方向、生态与实践总结展开：</p>
-<ol>
-<li>Dubbo3 在通信协议、云原生观测性、Kubernetes、服务网格、GraalVM 静态化方面的最新进展</li>
-<li>微服务生态相关最新进展，包括分布式事务、限流降级、服务治理等</li>
-<li>来自工商银行、政彩云等典型企业的微服务实践经验总结</li>
-</ol>
-<p>本论坛非常适合从事企业级微服务架构的相关技术管理人员、架构师、开发者。</p>
+                <article><p>Web 服务器在互联网时代扮演了至关重要的作用，在多年的发展中依然历久弥坚，保持自己的活力，显示出其强大的生命力，这些项目包括但不限于 <a href="https://tomcat.apache.org">Apache Tomcat</a> / <a href="https://httpd.apache.org/">Apache Http Server</a> 为代表的 Web 服务器 ，以及 <a href="https://sling.apache.org/">Apache Sling</a> / <a href="https://trafficserver.apache.org/">Apache Traffic Server</a> / <a href="https://trafficcontrol.apache.org/">Apache Traffic Control</a> 等更多的生态项目。</p>
+<p>在这里，您将了解 Web 服务器领域的最新成果，一线大厂在生产当中的最佳实践，以及这些项目的最新发展规划。</p>
 </article>
                 
                  
@@ -275,10 +271,6 @@
                     
                 
                 
-                
-                    
-                
-                
                     </dd>
 
                 
@@ -340,12 +332,8 @@
                 
                 
                 
-                
-                
                     </dd>
 
-                
-                
                 
                 
                 

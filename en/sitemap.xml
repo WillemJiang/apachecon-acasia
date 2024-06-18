@@ -75,18 +75,6 @@
                 href="/tracks/ai.html"
                 />
   </url><url>
-    <loc>/tracks/api.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tracks/api.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tracks/api.html"
-                />
-  </url><url>
     <loc>/categories.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -183,16 +171,16 @@
                 href="/tracks/dataops.html"
                 />
   </url><url>
-    <loc>/tracks/general.html</loc>
+    <loc>/tracks/others.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tracks/general.html"
+                href="/zh/tracks/others.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tracks/general.html"
+                href="/tracks/others.html"
                 />
   </url><url>
     <loc>/guide.html</loc>
@@ -255,6 +243,18 @@
                 href="/tracks/messaging.html"
                 />
   </url><url>
+    <loc>/tracks/api.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tracks/api.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tracks/api.html"
+                />
+  </url><url>
     <loc>/tracks/olap.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -279,16 +279,16 @@
                 href="/tracks/performance.html"
                 />
   </url><url>
-    <loc>/tracks/rpc.html</loc>
+    <loc>/schedule.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tracks/rpc.html"
+                href="/zh/schedule.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tracks/rpc.html"
+                href="/schedule.html"
                 />
   </url><url>
     <loc>/search.html</loc>
@@ -351,18 +351,6 @@
                 href="/tracks.html"
                 />
   </url><url>
-    <loc>/tac.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tac.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tac.html"
-                />
-  </url><url>
     <loc>/venue_travel.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -375,16 +363,16 @@
                 href="/venue_travel.html"
                 />
   </url><url>
-    <loc>/tracks/webserverandtomcat.html</loc>
+    <loc>/tracks/webserver.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tracks/webserverandtomcat.html"
+                href="/zh/tracks/webserver.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tracks/webserverandtomcat.html"
+                href="/tracks/webserver.html"
                 />
   </url>
 </urlset>
