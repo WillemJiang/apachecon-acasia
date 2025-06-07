@@ -1419,18 +1419,6 @@
                 href="/tracks/messaging.html"
                 />
   </url><url>
-    <loc>/tracks/api.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tracks/api.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tracks/api.html"
-                />
-  </url><url>
     <loc>/tracks/microservice.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -1537,6 +1525,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="/sessions/olap-911203.html"
+                />
+  </url><url>
+    <loc>/sessions/observability-910659.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/sessions/observability-910659.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sessions/observability-910659.html"
                 />
   </url><url>
     <loc>/sessions/datalake-913345.html</loc>
@@ -2281,18 +2281,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/sessions/datalake-915144.html"
-                />
-  </url><url>
-    <loc>/sessions/observability-910659.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/sessions/observability-910659.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/sessions/observability-910659.html"
                 />
   </url>
 </urlset>
