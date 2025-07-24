@@ -1374,12 +1374,12 @@ Storage Optimization By replacing HDFS with JuiceFS, we implemented elastic comp
     </item>
     
     <item>
-      <title>Ant Group&#39;s Next Generation High SLA Streaming Computing System Built on Apache Technology Stack</title>
+      <title>Ant Group&#39;s Next Generation High SLA Stream Computing System Built on Apache Technology Stack</title>
       <link>/sessions/streaming-880299.html</link>
       <pubDate>Fri, 25 Jul 2025 14:30:00 +0000</pubDate>
       
       <guid>/sessions/streaming-880299.html</guid>
-      <description>● Background: Introduce Ant Group&amp;rsquo;s real-time business and technical background ● Solution: Introduce the new generation of stream computing systems built on Apache technology stacks such as Flink and Calcite ● Key design: Introduce core technologies such as full-link SLA observability, scenario-based disaster recovery, and state-compatible computing enhancement ● Application cases: Introduce application cases in Ant Group&amp;rsquo;s key business scenarios ● Main progress: Introduce the current construction progress and future prospects of the system</description>
+      <description>Background: Introduce Ant Group&amp;rsquo;s real-time business and technical background Solution: Introduce the new generation of stream computing systems built on Apache technology stacks such as Flink and Calcite Key design: Introduce core technologies such as full-link SLA observability, scenario-based disaster recovery, and state-compatible computing enhancement Application cases: Introduce application cases in Ant Group&amp;rsquo;s key business scenarios Main progress: Introduce the current construction progress and future prospects of the system  Speakers:</description>
     </item>
     
     <item>
@@ -1597,7 +1597,7 @@ In the face of this paradigm shift, the role of the product manager is undergoin
       <description>As the opening keynote for Community Over Code Asia, we will briefly review the development journey of the Apache Software Foundation in China and the growth of local Apache communities. Here, we witness the power of community—it is through this collective strength that we have successfully organized this conference!
 Speakers: 
 Willem Jiang: CoC Asia conference Chair， ASF Member， ByteDance Open Source Office Chief Evangelist
-Willem Jiang (Jiang Ning) is the principal Open Source Evangelist of ByteDance OSPO , and a memeber of the Apache Software Foundation.</description>
+Willem Jiang (Jiang Ning) is the Open Source Evangelist of ByteDance OSPO , and a memeber of the Apache Software Foundation.</description>
     </item>
     
   </channel>
