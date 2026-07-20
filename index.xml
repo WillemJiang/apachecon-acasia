@@ -162,13 +162,6 @@
       <description>&lt;p&gt;As agent-based technologies and applications continue to evolve, we believe that building event-driven streaming agent applications will emerge as a critical direction for the field. Against this backdrop, the Flink community has launched Flink Agents — a subproject and agent-building framework built on top of Apache Flink.&#xA;Since the release of its first version in September 2025, Flink Agents has made significant strides in functional iteration, fault-tolerant execution, ecosystem integration, and observability, all driven by close collaboration across the community. Building on Flink Agents 0.2.1, the community developed an intelligent Flink operations agent demo capable of automatically analyzing Flink job health, providing diagnostic recommendations, and attempting to resolve issues using available tools.&#xA;This talk will cover the following topics:&#xA;● Event-driven streaming agent use cases and the advantages Flink Agents brings to this space.&#xA;● The architecture and core features of Flink Agents.&#xA;● Latest advancements in Flink Agents, including support for Agent Skills, Mem0-based Long-Term memory, and enhanced Durable Execution.&#xA;● The roadmap for Flink Agents.&#xA;● A live demo of an intelligent Flink job operations agent built with Flink Agents.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Apache Fluss, The Hero of Data City</title>
-      <link>/sessions/streaming-1207347.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/sessions/streaming-1207347.html</guid>
-      <description>&lt;p&gt;Message queues are the backbone of modern streaming systems, but when used as long-term data platforms, they introduce duplication, rising costs, and complex architectures. As real-time analytics demands increase, treating streams as transient messages is no longer sufficient.&lt;/p&gt;&#xA;&lt;p&gt;This talk introduces Apache Fluss, a streaming storage system designed to make data queryable immediately as it arrives. By combining schema-first tables, native record mutation, columnar storage, and unified data tiering, Fluss enables fresh queries, simpler architectures, and lower operational cost.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Apache GraphAr (Incubating): Graph Data Management Format for the AI Era</title>
       <link>/sessions/incubator-1214505.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1084,13 +1077,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/sessions/community-1241720.html</guid>
       <description>&lt;p&gt;AI-assisted development and software agents are changing how open-source software is reused. Code can now be referenced, rewritten, or propagated through AI workflows without showing up in package manifests, forks, or traditional dependency graphs.&lt;/p&gt;&#xA;&lt;p&gt;This creates a new challenge for open-source communities: how do we preserve attribution, provenance, maintainer visibility, and long-term sustainability without restricting software freedom or blocking AI usage?&lt;/p&gt;&#xA;&lt;p&gt;This panel will discuss how open-source infrastructure may need to evolve in the agentic era, covering machine-readable attribution, dependency visibility, maintainer metadata, voluntary pledges, public accountability, and AI-era licensing. Using OpenSeed and the draft OpenSeed Agentic Open License 0.1 as a case study, we will explore how communities can keep open-source ecosystems visible, accountable, and sustainable as AI changes the meaning of downstream reuse.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>When More Isn’t Better: Rethinking Open Source in the Age of AI</title>
-      <link>/sessions/community-1214785.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/sessions/community-1214785.html</guid>
-      <description>&lt;p&gt;Open source projects have traditionally relied on visible contributions, pull requests, proposals, and activity to identify and evaluate contributors. But as the cost of generating contributions has decreased with the rise of AI-assisted development, these signals are becoming harder to trust. What happens when contribution no longer reflects understanding?&lt;/p&gt;&#xA;&lt;p&gt;In this talk, I share insights from my experience as a contributor, mentor, and community manager in the CircuitVerse ecosystem, along with learnings shaped by conversations with maintainers and organization administrators across programs like Google Summer of Code. I’m deeply grateful for the openness of the community in sharing their challenges, experiments, and evolving practices during this time of change.&lt;/p&gt;</description>
     </item>
     <item>
       <title>When MQTT Meets Kafka: Evolving IoT Infrastructure from Ingestion Layer to Data Layer</title>
