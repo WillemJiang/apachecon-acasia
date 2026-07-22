@@ -468,7 +468,7 @@
       <link>/zh/sessions/streaming-1213500.html</link>
       <pubDate>Sat, 08 Aug 2026 15:45:00 +0000</pubDate>
       <guid>/zh/sessions/streaming-1213500.html</guid>
-      <description>&lt;p&gt;本文介绍 Fluss 在 Alipay 营销场景中的落地实践。从业务挑战出发，详细讲述整个过程，包括技术选型、架构设计，以及核心用例的部署。通过与 SLS 等方案的对比，展示 Fluss 在实时数据处理方面的优势。文中还分享了真实的性能指标与成本优化结果，最后总结最佳实践，为业界同行提供有价值的参考。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/b04e-400o400o1-nHqgvJopGSCzFYcK7yvxkX.png&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;育锋 朱: 蚂蚁集团-数智引擎技术部-实时智能平台-研发工程师&lt;/p&gt;&#xA;&lt;p&gt;负责维护 Ant Group 的 Dataphin 实时开发平台以及 Ant Group 的 Fluss。&lt;/p&gt;</description>
+      <description>&lt;p&gt;本文介绍 Fluss 在 Alipay 营销场景中的落地实践。从业务挑战出发，详细讲述整个过程，包括技术选型、架构设计，以及核心用例的部署。通过与 SLS 等方案的对比，展示 Fluss 在实时数据处理方面的优势。文中还分享了真实的性能指标与成本优化结果，最后总结最佳实践，为业界同行提供有价值的参考。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://github.com/user-attachments/assets/d4c7a50d-3664-4d47-8362-b4cb65b1c9d8&#34; width=&#34;200&#34; height=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;育锋 朱: 蚂蚁集团高级开发工程师、Apache Paimon &amp;amp; Fluss Contributor&lt;/p&gt;&#xA;&lt;p&gt;多年来专注于大数据实时计算/数据湖领域，负责Paimon、Fluss在蚂蚁业务场景的探索应用。&lt;/p&gt;</description>
     </item>
     <item>
       <title>从数据湖到数据 Agent：用 Apache Gravitino 与 MetricFlow 构建语义层</title>
@@ -923,7 +923,7 @@
       <link>/zh/sessions/messaging-1196418.html</link>
       <pubDate>Fri, 07 Aug 2026 14:00:00 +0000</pubDate>
       <guid>/zh/sessions/messaging-1196418.html</guid>
-      <description>&lt;p&gt;本次分享将讲解我们如何为 Apache RocketMQ 演进出一套轻量级的外部路由控制面，在不改动 broker、nameserver 以及客户端访问模式的前提下，支撑大规模集群的治理。&lt;/p&gt;&#xA;&lt;p&gt;随着多条业务线逐步共用同一个集群，真正的挑战从吞吐量转向治理：更快的故障收敛、可控的 topic 迁移，以及灵活的基于泳道（lane）的流量隔离。在本次演讲中，我将说明为什么这些问题更适合在路由层解决，为什么现有的 NameServer 和 Broker 机制并不足够，以及如何将 broker 写隔离、topic 迁移和基于泳道的流量隔离统一在同一个控制面中，从而以更小的爆炸半径、更可控的治理方式支撑大规模集群的拆分。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/ed42-400o400o1-3Jm5SmqbknYn3ZeVXQQXY2.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Xiao Yang：同程旅行，消息中间件核心开发者&lt;/p&gt;&#xA;&lt;p&gt;我是来自同程旅行基础架构工程团队的 Xiao Yang。我主要负责消息中间件的架构演进与维护。我热爱开源，是 Apache ShardingSphere 的 committer，同时也是 Apache RocketMQ 的活跃贡献者。&lt;/p&gt;</description>
+      <description>&lt;p&gt;本次分享将讲解我们如何为 Apache RocketMQ 演进出一套轻量级的外部路由控制面，在不改动 broker、nameserver 以及客户端访问模式的前提下，支撑大规模集群的治理。&lt;/p&gt;&#xA;&lt;p&gt;随着多条业务线逐步共用同一个集群，真正的挑战从吞吐量转向治理：更快的故障收敛、可控的 topic 迁移，以及灵活的基于泳道（lane）的流量隔离。在本次演讲中，我将说明为什么这些问题更适合在路由层解决，为什么现有的 NameServer 和 Broker 机制并不足够，以及如何将 broker 写隔离、topic 迁移和基于泳道的流量隔离统一在同一个控制面中，从而以更小的爆炸半径、更可控的治理方式支撑大规模集群的拆分。&lt;/p&gt;&#xA;&lt;h3 id=&#34;讲师&#34;&gt;讲师:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.sessionize.com/image/ed42-400o400o1-3Jm5SmqbknYn3ZeVXQQXY2.jpg&#34; width=&#34;200&#34; /&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;p&gt;Xiao Yang：同程旅行中间件工程师，Apache RocketMQ Committer&lt;/p&gt;&#xA;&lt;p&gt;负责消息中间件架构演进、稳定性治理与平台化能力建设。&lt;/p&gt;</description>
     </item>
     <item>
       <title>OpenClaw 安全治理：从无序到有序</title>
